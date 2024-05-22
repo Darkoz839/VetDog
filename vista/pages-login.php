@@ -41,7 +41,7 @@ $stmt = $connect->prepare('SELECT id, nombre, usuario, correo,contra, cargo FROM
             
             
     if($_SESSION['cargo'] == 1){
-          header('Location: panel-admin/administrador');
+          header('Location: panel-admin/administrador.php');
         
         }
             exit;

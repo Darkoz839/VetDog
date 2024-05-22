@@ -277,6 +277,17 @@
                         </ul>
     </li>
     <!--======================================================================================================-->
+    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">monitor_heart</i>
+                            <span>Diagnostico</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="../diagnostico/diagnosticar">Diagnosticar</a>
+                            </li>
+                        </ul>
+</li>
         <aside id="rightsidebar" class="right-sidebar">
         </aside>
     </section>
@@ -287,7 +298,7 @@
         <div class="container-fluid">
             <!-- Input -->
 <div class="alert alert-info">
-  <strong>Estimado usuario!</strong>    Los campos remarcados con <span class="text-danger">*</span> son necesarios.
+  <strong>Estimado usuario</strong>    Los campos remarcados con <span class="text-danger">*</span> son necesarios.
 </div>
 
             <div class="row clearfix">

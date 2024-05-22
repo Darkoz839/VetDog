@@ -32,6 +32,7 @@
   $click = mysqli_fetch_all($click,MYSQLI_ASSOC);
   $click = json_encode(array_column($click, 'count'),JSON_NUMERIC_CHECK);
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -302,6 +303,17 @@
                         </ul>
     </li>
 <!--======================================================================================================-->
+<li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">monitor_heart</i>
+                            <span>Diagnostico</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="../diagnostico/diagnosticar">Diagnosticar</a>
+                            </li>
+                        </ul>
+</li>
                     
 <!--======================================================================================================-->
         <aside id="rightsidebar" class="right-sidebar">
